@@ -9,7 +9,7 @@ open class SmartDevice(val name: String, val category: String) {
         protected set
 
     open val deviceType = "unknown"
-//    hiiii
+
     open fun turnOn() {
         deviceStatus = "on"
     }
