@@ -14,7 +14,6 @@ open class SmartDevice(val name: String, val category: String) {
         deviceStatus = "on"
     }
 
-
     open fun turnOff() {
         deviceStatus = "off"
     }
